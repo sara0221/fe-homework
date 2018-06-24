@@ -169,5 +169,8 @@ p {
 }
 .intro a:hover::before {
     color: #fff;
-    background: #357d93;
+	background: #357d93;
+  }
+  div.participation{
+	  padding:3em 0;
   }
