@@ -171,6 +171,21 @@ p {
     color: #fff;
 	background: #357d93;
   }
-  div.participation{
+  div.participation, div.benefits{
 	  padding:3em 0;
+	  margin-top: 3em;
+  }
+  div.participation{
+	  background-image: url(http://www.csszengarden.com/214/contours-opaque.png),url(http://www.csszengarden.com/214/gridlines-opaque.png),url(http://www.csszengarden.com/214/bamboo.png);
+  }
+  div.benefits{
+	  padding-bottom: 3em;
+	  margin-bottom: 3em;
+  }
+  /* display:block;margin+font-size=38px */
+  div.participation h3,div.benifits h3{
+	  margin-top:0;
+  }
+  div.participation p,div.benifits p{
+	  margin-bottom: 0;
   }
