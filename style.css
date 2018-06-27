@@ -206,3 +206,26 @@ p {
   div.requirements h3{
 	  text-transform: uppercase;
   }
+  .requirements p:last-child{
+	width:auto;
+	padding:1em 12%;
+	margin: 0;
+	color:rgba(255,255,255,0.4);
+	background: #3e5d67;
+	background-image: url(http://www.csszengarden.com/214/contours.png),url(http://www.csszengarden.com/214/gridlines.png),url(http://www.csszengarden.com/214/noise.png),url(http://www.csszengarden.com/214/koi.jpg);
+	background-attachment: fixed,fixed,fixed,scroll;
+	background-size:auto,auto,auto,cover;
+	background-repeat: repeat,repeat,repeat,no-repeat;
+	background-position:0 0,-5px -25px,0 0,0,50%;
+	font-size: 1.5em;
+	font-style: italic;
+  }
+  footer{
+	  color:#fff;
+	  background:#134347;
+	  text-align: center;
+	  display: block;
+	  width:auto;
+	  height: 55px;
+	  padding:36px;
+  }
