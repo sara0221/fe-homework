@@ -106,6 +106,7 @@ p {
 	/* 这种要怎么去量大小啊，是直接量么？一直没明白这里em相对的是哪个长度啊？字体的默认大小没指定啊 */
 	margin: 0.75em 0;
 	line-height: 2;
+	font-size: 1em;
 }
 
 .page-wraper {
@@ -175,17 +176,33 @@ p {
 	  padding:3em 0;
 	  margin-top: 3em;
   }
-  div.participation{
+  div.participation, div.benefits{
 	  background-image: url(http://www.csszengarden.com/214/contours-opaque.png),url(http://www.csszengarden.com/214/gridlines-opaque.png),url(http://www.csszengarden.com/214/bamboo.png);
+	  background-attachment: scroll,scroll,fixed;
+	  background-color: rgba(138,188,159,0.5);
+	  background-repeat: repeat,repeat,no-repeat;
+	  background-size: auto,auto,cover;
   }
+
   div.benefits{
 	  padding-bottom: 3em;
 	  margin-bottom: 3em;
+	  margin-top:0;
+	  padding-top: 0;
+  }
+  div.preamble h3,div.explanation h3{
+	text-transform: uppercase;
+	font-weight: normal;
   }
   /* display:block;margin+font-size=38px */
-  div.participation h3,div.benifits h3{
+  div.participation h3, div.benefits h3{
 	  margin-top:0;
+	  text-transform: uppercase;
+	  font-weight: normal;
   }
-  div.participation p,div.benifits p{
+  div.participation p, div.benefits p{
 	  margin-bottom: 0;
+  }
+  div.requirements h3{
+	  text-transform: uppercase;
   }
