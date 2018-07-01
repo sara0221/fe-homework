@@ -11,6 +11,7 @@ body {
 body {
 	color: #325050;
 	background: #fff;
+	background: linear-gradient(to right,  #ffffff 0%,#ffffff 66%,#e5ede8 66%,#e5ede8 100%);
 	font-family: 'Libre Baskerville', sans-serif;
 	font-size: 100%;
 }
@@ -28,7 +29,7 @@ a:visited {
 a:hover,
 a:focus {
 	color: #0599c2;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 abbr {
@@ -56,6 +57,7 @@ h2 {
 	margin: 0;
 	color: #fff;
 	font-weight: normal;
+
 }
 
 h1 {
@@ -65,15 +67,21 @@ h1 {
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 3.2em;
 	text-transform: uppercase;
+	text-align: left;
+}
+header h2{
+	text-align: left;
+	margin-left: 58px;
 }
 
 h1::before {
 	display: inline-block;
 	position: relative;
-	top: 20px;
+	top: 78px;
+	
 	content: "";
-	width: 80px;
-	height: 80px;
+	width: 125px;
+	height: 125px;
 	margin: -20px 20px 0 0;
 	background: url(http://www.csszengarden.com/214/enso.svg);
 	background-repeat: no-repeat;
@@ -89,6 +97,7 @@ h2 {
 	color: rgba(255, 255, 255, 0.6);
 	font-size: 1.6em;
 	font-style: italic;
+	
 }
 
 h2::before {
@@ -236,28 +245,36 @@ footer {
 .design-selection li,
 .zen-resources ul {
 	margin: 0;
+
 }
 
 .design-selection li,
 .zen-resources li {
-	float: left;
-	width: 50%;
+	
 	padding: 1.5em 10%;
 	border-top: solid 1px #d9e3dc;
 	color: #c0cac3;
 	font-style: italic;
 	list-style: none;
+	
 }
-
-.design-selection li:hover,
-.design-selection li:focus {
-	float: left;
-	background-color: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+.design-selection li:first-child{
+	border-top: none;
 }
-
-.design-selection li:nth-child(2n+1),
-.zen-resources li:nth-child(2n+1) {
-	clear: left;
+.design-name,.zen-resources{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.2em;
+	font-style:normal;
+	display: block;
+	width: 210px;
+	list-style: none;
+	color:#607476;
+}
+.zen-resources li{
+	border-top-color: rgb(160, 185, 173);
+}
+.designer-name,.zen-resources{
+	color: #616857;
 }
 
 .design-selection h3,
@@ -284,37 +301,96 @@ footer {
 
 .design-selection{
 	position: absolute;
-	top: 360px;
+	top: 230px;
 	right: 0;
 	background:transparent;
+	width: 380px;
+	
+
 }
 .zen-resources {
 	position: absolute;
-	top:720px;
+	top:1377px;
 	right:0;
+	width: 387px;
+	height: 760px;
 }
 .design-archives{
 	position: absolute;
-    top:78px;
-	right:249px;
+    top:0;
+	right:0;
+	text-decoration: none;
+	background:rgba(33,84,95,0.3);
+	width: 380px;
+	height: 231px;
+	
+}
+.design-archives li{
+	display: inline-block;
+	text-align: left;
+	width: 186px;
+	height: 69px;
+	margin-top: 61px;
+	margin-left: 50px;
+	background: rgba(255,255,255,0.1);
+	text-transform: uppercase;	
+	text-indent: 2px;
+}
+.design-archives a{
+	color: rgba(255, 255, 255, 0.65);
+	line-height: 69px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 1.2em;
+	
+}
+.design-archives li:hover{
+	background-color: rgba(255,255,255,0.2);
+}
+
+.design-archives li:hover a {
+	color: #fff;
+}
+.design-archives a:hover{
 	text-decoration: none;
 }
-.design-archives li:last-child{
-	display: inline-block;
-	text-align: center;
-	background-color: white;
-	width: 537px;
-	height: 56px;
+.design-archives li:first-child{
+	
+	position: absolute;
+	width: 79px;
+	left:227px;	
 }
-.design-archives h3,.design-archives li:first-child{
+.design-archives li:first-child a{
+	visibility: hidden;
+}
+.design-archives li:first-child a::before{
+	content: ">";
+	visibility: visible;
+	display: block;
+	width: 70px;
+	height: 70px;
+	font-size: 44px;
+	line-height: 69px;
+	text-align: center;
+	font-family: 'verdemoderna';
+}
+.design-archives h3{
 	display: none;
+	list-style: none;
+}
+.design-archives li:first-child{
 	list-style: none;
 }
 
 	
 
 /* latin-ext */
-
+@font-face {
+    font-family: 'verdemoderna';
+    /* src: url('verdemoderna.eot'); */
+    src: url('./verdemoderna.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
 	font-family: 'Julius Sans One';
 	font-style: normal;
