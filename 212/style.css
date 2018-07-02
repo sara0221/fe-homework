@@ -7,3 +7,74 @@ body {
 	padding: 0;
 	margin: 0;
 }
+p{
+	margin: 0 0 1.6em;
+
+}
+
+body#css-zen-garden {
+	background: #edefd0 url(http://www.csszengarden.com/212/bg.jpg) top left repeat;
+	margin-top: 126px;
+	position: relative;
+	font: 62.5%/1.6 Georgia, Times, "Times New Roman", serif;
+	color: #3c1700;
+	font-size: 88%;
+}
+
+.page-wrapper {
+	background: url(http://www.csszengarden.com/212/bg_container.gif) 0 50px repeat-y;
+	padding: 0 30px 0 180px;
+}
+
+h1 {
+	position: absolute;
+	top: -75px;
+	left: 0;
+	width: 179px;
+	height: 152px;
+	text-indent: -10000px;
+	background: url(http://www.csszengarden.com/212/zen-troop-seal.gif) top left no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.intro h2 {
+	background-image: url(http://www.csszengarden.com/212/make-em-proud.jpg);
+	display: block;
+	width: 770px;
+	height: 350px;
+	background-repeat: no-repeat;
+	margin-left: -95px;
+	margin-top: -53px;
+	text-indent: -100001px;
+}
+
+.intro .summary {
+	position: absolute;
+	top: 100px;
+	left: 10px;
+	background: #3c1700 url(http://www.csszengarden.com/212/leader.gif) 54% 15px no-repeat;
+	width: 150px;
+	padding: 125px 14px 0 11px;
+	color: #fff;
+}
+
+.intro .summary p:last-child {
+	background: #2d1100 url(http://www.csszengarden.com/212/h_get-started.gif) 50% 1.5em no-repeat;
+	padding: 5em 15px 1.6em;
+	margin: 0 -14px 0 -11px;
+	font-size: 0.7em;
+}
+
+.intro .summary p:last-child a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.intro .summary p:last-child a:hover {
+	text-decoration: underline;
+}
+.preamble, .explanation, .participation, .benefits, .requirements{
+	width: 640px;
+}
