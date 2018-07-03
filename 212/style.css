@@ -57,13 +57,16 @@ h1 {
 	width: 150px;
 	padding: 125px 14px 0 11px;
 	color: #fff;
+	font-size: 0.6em;
+	font-style: italic;
 }
 
 .intro .summary p:last-child {
 	background: #2d1100 url(http://www.csszengarden.com/212/h_get-started.gif) 50% 1.5em no-repeat;
 	padding: 5em 15px 1.6em;
 	margin: 0 -14px 0 -11px;
-	font-size: 0.7em;
+	line-height: 1.5;
+	font-style:initial;
 }
 
 .intro .summary p:last-child a {
@@ -77,4 +80,126 @@ h1 {
 }
 .preamble, .explanation, .participation, .benefits, .requirements{
 	width: 640px;
+}
+.preamble h3{
+	background-image: url(http://www.csszengarden.com/212/h_path-to-achieve.gif);
+	background-repeat: no-repeat;
+	text-indent: -10001px;
+	margin:0 0 .8em 13em;
+}
+.explanation h3{
+	background-image: url(http://www.csszengarden.com/212/h_what-is-about.gif);
+	background-repeat: no-repeat;
+	text-indent: -100001px;
+	margin: 0 0 .8em 13.5em;
+}
+.participation h3{
+	background-image: url(http://www.csszengarden.com/212/h_participation.gif);
+	background-repeat: no-repeat;
+	text-indent: -100002px;
+	margin:0 0 0.8em 14em;
+}
+.participation a{
+	color:#1e0c00;
+	text-decoration: none;
+	font-weight: bold;
+}
+.participation a:hover{
+	text-decoration: underline;
+}
+.benefits h3{
+	background-image: url(http://www.csszengarden.com/212/h_merit-benefits.gif);
+	background-repeat: no-repeat;
+	text-indent: -10001px;
+	margin: 0 0 .8em 14em;
+}
+div#zen-supporting{
+	position: relative;
+}
+footer{
+	background:url(http://www.csszengarden.com/212/merit-badges.gif) top left no-repeat;
+	width:645px;
+	height:130px;
+	text-indent: -10001px;
+	position: absolute;
+	bottom:520px;
+	margin-left: -10px;
+}
+.requirements{
+	margin-top: 160px;
+}
+.requirements h3{
+	background-image: url(http://www.csszengarden.com/212/h_requirements.gif);
+	background-repeat: no-repeat;
+	text-indent: -10001px;
+	margin: 0 0 .8em 14em;
+}
+.requirements a{
+	color: #1e0c00;
+	text-decoration: none;
+	font-weight: bold;
+}
+.requirements a:hover{
+	text-decoration: underline;
+}
+.extra1{
+	display:block;
+	width: 855px;
+	height: 100px;
+	background: url(http://www.csszengarden.com/212/bg_req.gif) top left no-repeat;
+	background-position: bottom 50px left 0;
+	margin-top:-22px;
+}
+.sidebar{
+	background-color: #3c1700;
+	width:150px;
+	position: absolute;
+	top:45em;
+	left: 10px;
+	color: #fff;
+}
+.sidebar ul{
+	padding: 0 10px 0 10px;
+}
+
+.sidebar ul li{
+	list-style: none;
+	text-align: center;
+	margin: 0 0 1.2em;
+	font-size: .5em;
+	font-style: initial;
+	color: #edefd0;
+}
+.sidebar ul li a.design-name{
+	display:block;
+	background-color: #2d1100;
+	text-align: center;
+	font-size: 0.8em;
+	margin-bottom: .2em;
+}
+.sidebar a{
+	text-decoration: none;
+	color:#ebe7e5;
+	font-weight: bold;
+	font-style: italic;
+	font-size: .6em;
+}
+.sidebar a:hover{
+	text-decoration: underline;
+}
+.sidebar h3{
+	background-image: url(http://www.csszengarden.com/212/h_other-scouts.gif);
+	background-repeat: no-repeat;
+	text-indent: -10001px;
+	margin:1.8em .7em 1.2em 0.8em;
+}
+.design-archives h3{
+	background-image: url(http://www.csszengarden.com/212/h_archives.gif);
+}
+.zen-resources h3{
+	background-image: url(http://www.csszengarden.com/212/h_resources.gif);
+}
+li.zen-translations a{
+	display: block;
+	margin-bottom: 3em;
 }
