@@ -6,4 +6,153 @@ html,
 body {
 	padding: 0;
 	margin: 0;
+	font:75% georgia, sans-serif;
+	color:#555753;
+	background:#fff url(http://www.csszengarden.com/001/blossoms.jpg) no-repeat bottom right;
+	display: block;
+	line-height: 1.88889;
 }
+p{
+	margin-top: 0;
+	text-align: justify;
+}
+.page-wrapper{
+	background:url(http://www.csszengarden.com/001/zen-bg.jpg) no-repeat top left;
+	padding: 0 175px 0 110px;
+}
+
+header h1{
+	background:transparent url(http://www.csszengarden.com/001/h1.gif) no-repeat top left;
+	width: 219px;
+	height: 87px;
+	text-indent: -100000px;
+	float: left;
+}
+header{
+	display: block;
+	padding-top: 20px;
+	height: 130px;
+}
+header h2{
+	background:transparent url(http://www.csszengarden.com/001/h2.gif) no-repeat top left;
+	width: 200px;
+	height: 18px;
+	text-indent: -10000px;
+	float: right;
+	margin-top: 58px;
+	margin-bottom: 40px;
+}
+.summary{
+	display: block;
+	width:160px;
+	float: left;
+	margin: 20px 20px 20px 10px;
+}
+.summary p{
+	display: block;
+	float: left;
+	width: 160px;
+	font:italic 1.5em/2.2 georgia;
+	text-align: center;
+	
+}
+.summary p a,.participation a,.requirements a,footer a{
+	text-decoration: none;
+	font-weight: bold;
+	color:#D4CDDC;
+}
+.summary p a:hover,.participation a:hover,.requirements a:hover,footer a:hover{
+	text-decoration: underline;
+}
+.preamble h3{
+	font:italic normal 1.8em georgia;
+	color:#7D775C;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+.preamble{
+	padding:0px 10px 0 10px;
+}
+h3{
+	font:italic normal 1.8em georgia, sans-serif;
+	letter-spacing: 1px;
+	color:#7D775C;
+	margin-bottom: 0;
+}
+footer{
+	text-align: center;
+}
+footer a{
+	margin-right: 20px;
+}
+.sidebar{
+	position: absolute;
+	top:137px;
+	right:0;
+	background:transparent url(http://www.csszengarden.com/001/paper-bg.jpg) top left repeat-y;
+}
+.sidebar .wrapper{
+	font:10px verdana,sans-serif;
+}
+.wrapper{
+	width: 150px;
+}
+.sidebar li{
+	list-style: none;
+}
+.sidebar a{
+	text-decoration: none;
+	
+}
+.wrapper h3{
+	text-indent: -1000px;
+}
+.wrapper .select{
+	display: block;
+	background: transparent url(http://www.csszengarden.com/001/h3.gif) no-repeat top left;
+	width:97px;
+	height: 16px;
+	margin:39px 0 5px 25px;
+}
+.wrapper .archives{
+	background:transparent url(http://www.csszengarden.com/001/h5.gif) no-repeat top left;
+	margin:25px 0 -17px 13px;
+}
+.wrapper .resources{
+	background: transparent url(http://www.csszengarden.com/001/h6.gif) no-repeat top left;
+	margin:25px 0 -17px 8px;
+}
+.sidebar li{
+	line-height: 1.3em;
+	background: transparent url(http://www.csszengarden.com/001/cr1.gif) no-repeat top;
+	display: block;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	margin-left: -28px;
+	width: 130px;
+}
+.sidebar .design-name , #design-archives ul li:last-child{
+	color:#B3AE94;
+	font-weight: bold;
+}
+.sidebar .designer-name, .design-archives li a{
+	color: #988F5E;
+	font-weight: bold;
+}
+.extra1{
+	background:transparent url(http://www.csszengarden.com/001/cr2.gif) top left no-repeat;
+	width: 148px;
+	height:110px;
+	position:absolute;
+	top:40px;
+	right:0;
+}
+.zen-resources ul li a{
+	color:#988F5E;
+	font-weight: bold;
+}
+#zen-resources ul li.css-resources{
+	color: #B3AE94;
+}
+
+
