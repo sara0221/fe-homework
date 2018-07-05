@@ -56,10 +56,16 @@ header h2{
 	text-align: center;
 	
 }
+
 .summary p a,.participation a,.requirements a,footer a{
 	text-decoration: none;
 	font-weight: bold;
-	color:#D4CDDC;
+	color: #B7A5DF;
+}
+a:visited{
+	font-weight: bold;
+	text-decoration: none;
+	color: #d4cddc;
 }
 .summary p a:hover,.participation a:hover,.requirements a:hover,footer a:hover{
 	text-decoration: underline;
@@ -113,14 +119,17 @@ footer a{
 	width:97px;
 	height: 16px;
 	margin:39px 0 5px 25px;
+	text-indent: -10000px;
 }
 .wrapper .archives{
 	background:transparent url(http://www.csszengarden.com/001/h5.gif) no-repeat top left;
 	margin:25px 0 -17px 13px;
+	text-indent: -10000px;
 }
 .wrapper .resources{
 	background: transparent url(http://www.csszengarden.com/001/h6.gif) no-repeat top left;
 	margin:25px 0 -17px 8px;
+	text-indent: -10000px;
 }
 .sidebar li{
 	line-height: 1.3em;
@@ -154,5 +163,10 @@ footer a{
 #zen-resources ul li.css-resources{
 	color: #B3AE94;
 }
+#design-archives ul li.viewall a ,#zen-resources ul li.css-resources a,#zen-resources ul li.zen-faq a{
+	color:#B3AE94; 
+}
+
+
 
 
