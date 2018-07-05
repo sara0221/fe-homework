@@ -1,0 +1,88 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+}
+
+.AppHeader {
+    height: 52px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    padding: 0;
+    margin: 0;
+}
+
+.AppHeader-inner {
+    width: 1000px;
+    margin: auto;
+    height: 52px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.AppHeader-inner a {
+    text-decoration: none;
+    color: #0084ff;
+    display: block;
+    width: 67px;
+    height: 30px;
+    padding-left: 16px;
+    font-size: 1.8em;
+    line-height: 30px;
+    position: absolute;
+    top: 12px;
+}
+
+.AppHeader-nav {
+    position: absolute;
+    top: 15px;
+    left: 125px;
+}
+
+.AppHeader-nav a.AppHeader-navItem {
+    margin-right: 32px;
+    text-decoration: none;
+    color: #8590a6;
+}
+
+.AppHeader-nav a.AppHeader-navItem:hover {
+    color: #175199;
+}
+
+/* .AppHeader-nav a.AppHeader-navItem:visited{
+    color: #444;
+} */
+
+.SearchBar {
+    position: absolute;
+    top: 8px;
+    left: 335px;
+    width: 400px;
+    display: block;
+}
+.input {
+    width: 400px;
+    padding-left: 16px;
+    height: 34px;
+    line-height: 24px;
+    font: 400 14px system-ui; 
+    background: transparent;
+    background: #f6f6f6;
+    border-radius: 4px;
+    outline: none;
+    border:none;
+}
+.search{
+    width: 30px;
+    height: 30px;
+}
+
+.Input-after {
+    display: inline-block;
+}
