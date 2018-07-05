@@ -110,7 +110,7 @@ footer{
 	height: 58px;
 	position: relative;
 	left: -280px;
-	margin-top: 45px;
+	margin-top: 38px;
 }
 footer a{
 	position: relative;
@@ -153,6 +153,10 @@ footer a{
 	text-indent: -10000px;
 	margin: 30px 0 5px 26px;
 }
-.explanation p,.participation p,.benefits p,.requirements p{
+.explanation p,.participation p,.benefits p{
+	line-height:160%;
+}
+.requirements p{
 	line-height:150%;
 }
+
