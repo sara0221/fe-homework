@@ -23,7 +23,6 @@ body {
     height: 52px;
     display: block;
     overflow: hidden;    
-    outline: 1px solid red;
     position: relative;
 }
 .AppHeader-inner a.AppHeader-inner-a {
@@ -48,7 +47,7 @@ body {
     font-size:1.02em;
     float: left;
     margin:16px 0 0 0;
-    padding-right: 34px;
+    padding-right: 30px;
 }
 
 .AppHeader-nav a.AppHeader-navItem:hover {
@@ -62,12 +61,12 @@ body {
 .SearchBar {
     position: absolute;
     top: 8px;
-    left: 335px;
+    left: 277px;
     width: 400px;
     display: block;
 }
 .input{
-    width: 324px;
+    width: 308px;
     padding-left: 16px;
     height: 34px;
     line-height: 24px;
@@ -91,7 +90,7 @@ body {
     border:none;
 }
 .button{
-    font: 400 15px system-ui; 
+    font: 400 14px system-ui; 
     color: #f6f6f6;
     background-color: #0084ff;
     width: 58px;
@@ -99,13 +98,12 @@ body {
     border-radius: 4px;
     position: absolute;
     top:0px;
-    left: 360px;
+    left: 342px;
 }
 .AppHeader-useInfo{
     width: 326px;
     height: 31px;
-    outline: 1px solid red;
     position: absolute;
     top: 10px;
-    left:754px;
+    right: 0px;
 }
