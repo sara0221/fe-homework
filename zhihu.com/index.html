@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,39 @@
     <title>Document</title>
     <link rel="stylesheet" media="screen" href="./style.css">
     <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
-    
+
 </head>
+
 <body>
     <div>
         <header class="Sticky AppHeader">
             <div class="AppHeader-inner">
-                <a href="www.zhihe.com" aria-label="知乎">知乎</a>
-            </div>
+                <a href="www.zhihu.com" aria-label="知乎" class="AppHeader-inner-a">知乎</a>
+            
             <nav role="navigation" class="AppHeader-nav">
-                <a href="" class="AppHeader-navItem">首页</a>
-                <a href="" class="AppHeader-navItem">发现</a>
-                <a href="" class="AppHeader-navItem">话题</a>
+                <a href="" class="AppHeader-navItem first">首页</a>
+                <a href="" class="AppHeader-navItem second">发现</a>
+                <a href="" class="AppHeader-navItem third">话题</a>
             </nav>
             <div class="SearchBar">
                 <div class="SearchBar-toolWrapper">
                     <form action="" class="SearchBar-tool">
-                        <div>
-                            <div class="Popover">
-                                <div class="SearchBar-input">
-                                    <input type="text" id="Popover1-content" class="input" placeholder="搜索你感兴趣的内容...">
-                                    <div class="Input-after">
-                                            <ion-icon name="search" src="./_ionicons_svg_md-search.svg" md="md-search"></ion-icon>
-                                    </div>
-                                </div>
+                        <div class="SearchBar-input">
+                            <input type="text" id="Popover1-content" class="input" placeholder="搜索你感兴趣的内容...">
+                            <div class="Input-after" id="Input-after">
+                                <button type="button" class="button">提问</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="AppHeader-useInfo"></div>
+            <div class="AppHeader-useInfo">
+
+            </div>
+        </div>
         </header>
     </div>
 </body>
 <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+
 </html>
