@@ -2,6 +2,11 @@ html,
 body {
     margin: 0;
 }
+/* user agent normalize */
+button{
+    border:0;
+    padding: 0;
+}
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
@@ -107,7 +112,6 @@ body {
     top: 10px;
     right: 0px;  
 }
-
 .svg-img{  
     float: left;
     color:#8590a6;
@@ -121,4 +125,63 @@ body {
 .AppHeader-menu{
     margin-top: 0px;
 }
+.Topstory-container{
+    width: 1000px;
+    outline: red 1px solid;
+    margin: 0 auto 0 auto;
+}
+.Topstory-mainColumn{
+    width: 694px;
+    
+    height: 58px;
+    margin-right: 10px;
+    float: left;
+}
+.Card{
+    height: 58px;
+    margin-bottom: 10px;
+}
+
+.Topstoryheader{
+    width: 674px;
+    padding-left: 10px;
+    padding-right:10px;
+    height: 58px;
+    outline: 1px solid red;
+}
+.Topstoryheader-nav{
+    display:inline-block;
+    outline: 1px solid red;   
+}
+.Topstoryheader-nav .QuestionAskbutton{
+    width: auto;
+    height: 58px;
+    font-size: 1em;
+    color: #444;
+}
+.Topstoryheader-nav svg{
+    margin-right: 8px;
+    vertical-align:text-bottom;
+}
+.TopstoryHeader-navItem{
+    margin-right: 38px;
+}
+.Topstoryheader-nav a{
+    text-decoration: none;
+}
+.Topstoryheader-nav a:visited,.Topstoryheader-nav .QuestionAskbutton:visited,.Topstoryheader-nav span:visited{
+    color: #444;
+}
+.Topstoryheader-nav a:hover,.Topstoryheader-nav .QuestionAskbutton:hover,.Topstoryheader-nav span:hover{
+    color:#175199;
+    cursor: pointer;
+}
+
+.GlobalSideBar{
+    float: left;
+    width: 296px;
+    outline: blue 1px solid;
+    height: 176px;
+}
+
 
