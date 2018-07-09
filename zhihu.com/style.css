@@ -12,6 +12,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
     font-size: 15px;
     color: #1a1a1a;
+    background-color: #f6f6f6;
 }
 
 .AppHeader {
@@ -234,7 +235,7 @@ body {
 }
 .GlobalSideBar-navItem a{
     text-decoration: none;
-    color: #8590C4; 
+    color: #8590a6; 
     
     width: 256px;
     height: 40px;
@@ -260,6 +261,38 @@ body {
     float: right;
     background: #f6f6f6;
     color:#8590a6;
-    height: 15px;
+    height: 16px;
+    line-height: 16px;
+    font-size: .84em;
+    margin-top: 8px;
+    margin-right:20px;
+    padding:6px 7px;
 }
+/* 内容区域开工 */
+.TopstoryItem{
+    height: 216px;
+    padding:16px 20px;
+    margin-bottom: 10px;
+}
+.TopstoryItem-rightButton{
+    float: right;
+}
+.TopstoryItem:hover .TopstoryItem-rightButton{
+    color:white;
+}
+.FeedSource .FeedSource-firstline{
+    height:21px;
+    display: inline-block;
+    color:#8590a6;
+    
+}
+.FeedSource-firstline .UserLink{
+    display: inline-block;
+    
+}
+.UserLink-link{
+    text-decoration: none;
+    color:#8590a6;
+}
+
 
