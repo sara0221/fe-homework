@@ -1,0 +1,109 @@
+html,body{
+    margin:0;
+}
+ul{
+    padding-left: 0;
+    margin:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 1180px;
+    height: 35px;
+    margin: 0 auto;
+
+}
+.login-header{
+    height: 35px;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+.header-nav-left li,.header-nav-right li{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 10px;
+    
+}
+.header-nav-left li a,.header-nav-right li a{
+    color: gray;
+    position: relative;
+    bottom: -5px;
+}
+.header-nav-right{
+    float: right;
+}
+.header-nav-right li a{
+    bottom: 15px;
+}
+.container{
+    position: absolute;
+    top:35px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.container .search-bar{
+    height: 120px;
+    outline: 1px solid red;
+}
+.search-bar-inner{
+    width: 1190px;
+    margin:0 auto;
+}
+.search-bar-left .logo-bd{
+    float: left;
+    width: 142px;
+    height: 60px;
+    background: url(https://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png) 0 0 no-repeat;
+    margin: 30px 0 0 20px;
+}
+.search-bar-center{
+    width: 630px;
+    outline: 1px solid blue;
+    height: 120px;
+    float: left;
+    margin: -89px 300px 0 255px; 
+}
+.bar-center-top{
+    margin-top:24px;
+    margin-left: 20px;
+}
+.search-bar-center .list{
+    display: inline-block;
+}
+.search-bar-select{
+    width: 25px;
+    border-radius: 3px;   
+}
+.search-bar-select:hover{
+    background-color: red;
+}
+input{
+    border:none;
+    box-shadow: none;
+    border: 2px solid transparent;
+}
+.thebar-center{
+    width: 626px;
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid red;
+}
+.item-list{
+    margin-top:5px;
+    font-size: 13px;
+}
+.item-list-item{
+    margin-right: 5px;
+}
+.search-bar-right img{
+    float: right;
+    height: 75px;
+    width: 62px;
+}
+
