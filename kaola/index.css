@@ -1,0 +1,207 @@
+body {
+    font: 12px/1.5 "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", \5FAE\8F6F\96C5\9ED1, tahoma, simsun, \5b8b\4f53;
+    background-color: white;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ul>li {
+    position: relative;
+}
+
+#topNavWrap {
+    position: relative;
+    height: 30px;
+    width: 1090px;
+    line-height: 30px;
+    background-color: black;
+    color: #999;
+    display: flex;
+}
+
+#topNavWrap a {
+    color: #999;
+}
+
+#topNavRight {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 250px;
+}
+
+.toplevel {
+    margin-right: 20px;
+    padding: 0 5px;
+}
+
+.mcDropMenuBox {
+    display: none;
+    padding: 0 5px;
+    position: absolute;
+}
+
+.topNavHolder {
+    display: block;
+}
+
+.topNavHolder:hover {
+    background-color: white;
+}
+
+.topNavHolder:hover~div {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.topNavHolder:hover~i {
+    transform: rotateX(180deg);
+}
+
+.topNavHolder~i {
+    position: absolute;
+    right: 15px;
+    top: 51%;
+    border-color: #999 transparent transparent;
+    border-style: solid dashed dashed;
+    border-width: 4px 4px 0;
+    transition: transform 0.2s ease-in;
+}
+
+.header-top {
+    display: flex;
+    position: relative;
+}
+
+.logokaola {
+    background-image: url(./images/logokaola.png);
+    margin-top: 10px;
+    width: 330px;
+    height: 65px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+#topsearchbox {
+    margin-top: 26px;
+    position: relative;
+}
+
+div.wrap {
+    border: 3px solid red;
+    width: 511px;
+    height: 40px;
+    border-radius: 24px 24px 24px 24px;
+    background-color: white;
+}
+
+#topSearchInput {
+    width: 300px;
+    margin-top: 8px;
+    margin-left: 15px;
+    padding-left: 30px;
+    font-size: 15px;
+    border-width: 0;
+    background-image: url(./images/goods.png);
+    background-repeat: no-repeat;
+    outline: none;
+}
+
+.topsearchboxBackGround {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 0 8px;
+    background-color: red;
+    border-radius: 20px;
+}
+
+#topSearchBtn {
+    display: block;
+    width: 50px;
+    height: 40px;
+    background: url(https://haitao.nos.netease.com/6e4da089-9347-4dc2-be19-4962832a4a5c.png?imageView&thumbnail=20x0&quality=85&v=1);
+    background-repeat: no-repeat;
+    background-position: 15px 10px;
+}
+
+#suggestlist {
+    display: flex;
+    margin-top: 10px;
+}
+
+.suggestitem {
+    margin-right: 25px;
+    color: #999;
+}
+
+.m-shopcartnew {
+    margin-top: 28px;
+    margin-left: 46px;
+    width: 100px;
+    height: 40px;
+    background-image: url(./images/goods.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    border: 2px solid red;
+    border-radius: 24px 24px 24px 24px;
+    text-align: center;
+    line-height: 40px;
+}
+.catitemlists li{
+    list-style: none;
+}
+
+#topTabBox .toplevel {
+    width: 164px;
+    height: 40px;
+    background-color: red;
+    border-bottom: 1px solid #ff5160;
+    line-height: 40px;
+    text-align: left;
+    color:#fff;
+    font-size:14px;
+    padding:0;
+    
+}
+.lineicon {
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    margin: 0 24px 0 15px;
+}
+.lineicon li{
+    display:block;
+    width: 15px;
+    height:0;
+    margin-bottom:3px;
+    border-top:2px solid #ddd;
+}
+.catli{
+    height:46px;
+    width:164px;
+    line-height: 46px;
+    background-color:red;
+    color:#fff;
+    font-size:14px;
+    position: relative;
+    left:-40px;
+    text-align: center;
+    text-align: left;
+    
+}
+.catli img{
+    padding-left:15px;
+}
+.catli .t{
+    padding-left:16px;
+}

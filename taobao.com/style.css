@@ -1,109 +1,229 @@
-html,body{
-    margin:0;
+html,
+body {
+    margin: 0;
 }
-ul{
+
+ul {
     padding-left: 0;
-    margin:0;
+    margin: 0;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-nav{
+
+nav {
     width: 1180px;
     height: 35px;
     margin: 0 auto;
-
 }
-.login-header{
+
+.contain-inner-box {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.login-header {
     height: 35px;
     margin: 0;
     background-color: #f5f5f5;
 }
-.header-nav-left li,.header-nav-right li{
+
+.header-nav-left li,
+.header-nav-right li {
     display: inline-block;
     font-size: 13px;
     margin-right: 10px;
-    
 }
-.header-nav-left li a,.header-nav-right li a{
+
+.header-nav-left li a,
+.header-nav-right li a {
     color: gray;
     position: relative;
     bottom: -5px;
 }
-.header-nav-right{
+
+.header-nav-right {
     float: right;
 }
-.header-nav-right li a{
+
+.header-nav-right li a {
     bottom: 15px;
 }
-.container{
+
+.container {
     position: absolute;
-    top:35px;
+    top: 35px;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
-.container .search-bar{
+.search-bar-inner {
     height: 120px;
-    outline: 1px solid red;
 }
-.search-bar-inner{
-    width: 1190px;
-    margin:0 auto;
-}
-.search-bar-left .logo-bd{
+
+.search-bar-left .logo-bd {
     float: left;
     width: 142px;
     height: 60px;
     background: url(https://img.alicdn.com/tfs/TB1_uT8a5ERMeJjSspiXXbZLFXa-143-59.png) 0 0 no-repeat;
     margin: 30px 0 0 20px;
 }
-.search-bar-center{
+
+.search-bar-center {
     width: 630px;
-    outline: 1px solid blue;
     height: 120px;
     float: left;
-    margin: -89px 300px 0 255px; 
+    margin: -89px 300px 0 255px;
 }
-.bar-center-top{
-    margin-top:24px;
+
+.bar-center-top {
+    margin-top: 24px;
     margin-left: 20px;
 }
-.search-bar-center .list{
+
+.search-bar-center .list {
     display: inline-block;
 }
-.search-bar-select{
+
+.search-bar-select {
     width: 25px;
-    border-radius: 3px;   
+    border-radius: 3px;
 }
-.search-bar-select:hover{
+
+.search-bar-select:hover {
     background-color: red;
 }
-input{
-    border:none;
+
+input {
+    border: none;
     box-shadow: none;
     border: 2px solid transparent;
 }
-.thebar-center{
+
+.thebar-center {
     width: 626px;
     height: 40px;
     border-radius: 25px;
     border: 2px solid red;
 }
-.item-list{
-    margin-top:5px;
+
+.item-list {
+    margin-top: 5px;
     font-size: 13px;
 }
-.item-list-item{
+
+.item-list-item {
     margin-right: 5px;
 }
-.search-bar-right img{
+
+.search-bar-right {
+    float: right;
+    margin-top: -112px;
+    font-size: 12px;
+    margin-right: 112px;
+}
+
+.phone-img {
+    display: block;
+}
+
+.search-bar-right img {
     float: right;
     height: 75px;
     width: 62px;
 }
 
+.long-info {
+    height: 30px;
+    background-color: orangered;
+}
+
+.long-info li {
+    display: inline-block;
+    
+}
+.long-info li a{
+    color: white;
+}
+.item-market {
+    padding: 0 63px;
+    display: inline-block;
+    height: 30px;
+    background-color: red;
+    color: white;
+}
+.item-markert-lists{
+    width: 187px;
+    height: 520px;
+    border:1px solid red;
+    position: absolute;
+    left: 0;
+}
+.item-markert-lists-li {
+    display: block;
+    height: 32px;
+    width: 187px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 15px;
+}
+.contain-one{
+    display: flex;
+}
+.contain-ad-slider{
+    width: 520px;
+    height: 280px;
+    outline: 1px solid red;
+    position: absolute;
+    top:160px;
+    left: 200px;
+}
+.contain-ad-slider-left{
+    width: 520px;
+    height: 200px;
+    outline: 1px solid red;
+    position: absolute;
+    top:470px;
+    left: 200px;
+}
+.contain-ad-slider-right-up{
+    width: 160px;
+    height: 280px;
+    outline: 1px solid red;
+    position: absolute;
+    top:160px;
+    left: 735px;
+}
+.contain-ad-slider-right-down{
+    width: 160px;
+    height: 200px;
+    outline: 1px solid red;
+    position: absolute;
+    top:470px;
+    left: 735px;
+}
+.contain-ad-slider-right{
+    width: 280px;
+    height: 620px;
+    outline: 1px solid red;
+    position: absolute;
+    left: 905px;
+    top:160px;
+    /* float: right;
+    margin-top:-510px; */
+    
+}
+.contain-ad-slider-down{
+    width: 890px;
+    height: 100px;
+    outline: 1px solid red;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
