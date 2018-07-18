@@ -162,8 +162,7 @@ input {
     width: 187px;
     height: 520px;
     border:1px solid red;
-    position: absolute;
-    left: 0;
+    float: left;
 }
 .item-markert-lists-li {
     display: block;
@@ -173,57 +172,107 @@ input {
     text-align: center;
     font-size: 15px;
 }
-.contain-one{
-    display: flex;
+
+.contain-ads-left,.contain-ads-middle,.contain-ads-right{
+    float: left;
 }
-.contain-ad-slider{
+.contain-ads-middle{
+    width: 710px;
+}
+.middle-one{
     width: 520px;
     height: 280px;
-    outline: 1px solid red;
-    position: absolute;
-    top:160px;
-    left: 200px;
+    outline:1px solid red;
+    float: left;
+    margin:10px;
 }
-.contain-ad-slider-left{
-    width: 520px;
-    height: 200px;
-    outline: 1px solid red;
-    position: absolute;
-    top:470px;
-    left: 200px;
-}
-.contain-ad-slider-right-up{
+.middle-two{
     width: 160px;
     height: 280px;
-    outline: 1px solid red;
-    position: absolute;
-    top:160px;
-    left: 735px;
+    outline:1px solid red;
+    float: left;
+    margin-top:10px;
 }
-.contain-ad-slider-right-down{
+.middle-three{
+    width: 520px;
+    height: 200px;
+    outline:1px solid red;
+    float: left;
+    margin:20px 10px 0 10px;
+}
+.middle-four{
     width: 160px;
     height: 200px;
-    outline: 1px solid red;
-    position: absolute;
-    top:470px;
-    left: 735px;
+    outline:1px solid red;
+    float: left;
+    margin-top: 20px;
 }
-.contain-ad-slider-right{
-    width: 280px;
-    height: 620px;
-    outline: 1px solid red;
-    position: absolute;
-    left: 905px;
-    top:160px;
-    /* float: right;
-    margin-top:-510px; */
-    
+.contain-ads-right{
+    width: 290px;
+    height: 623px;
+    outline:1px solid red; 
+    margin-top:10px; 
+    margin-bottom: 20px;
 }
-.contain-ad-slider-down{
+.contain-ads-down{
     width: 890px;
     height: 100px;
-    outline: 1px solid red;
+    outline:1px solid red; 
     position: absolute;
-    bottom: 50px;
-    left: 0;
+    top: 683px;
+}
+
+.life-research{
+    width: 1190px;
+    height: 160px;
+    outline:1px solid red;
+    clear: both;
+      
+}
+.goodGoods,.goodGoods-a{
+    width: 590px;
+    height: 660px;
+    outline:1px solid red;
+    margin-top: 20px;
+}
+.loveshopping,.loveshopping-a{
+    width: 590px;
+    height: 660px;
+    outline:1px solid red;
+    margin-left: 600px;
+    margin-top: -660px;
+}
+.timing{
+    width: 1190px;
+    height: 263px;
+    outline:1px solid red;
+    margin-top:20px;
+}
+.fashion{
+    width: 840px;
+    height: 290px;
+    outline:1px solid red;
+    margin-top: 20px;
+}
+.new-fashion{
+    width: 340px;
+    height: 290px;
+    outline:1px solid red;
+    margin-left: 850px;
+    margin-top: -290px;
+}
+.bottom-messageInfo{
+    width: 1190px;
+    height: 260px;
+    outline:1px solid black;
+    margin-top:20px;
+}
+.fixed{
+    width: 50px;
+    height: 350px;
+    outline:1px solid blue;
+    
+    position: fixed;
+    right:0;
+    top:450px;
 }
