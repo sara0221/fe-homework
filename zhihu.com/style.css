@@ -22,9 +22,17 @@ body {
     background: #fff;
     box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
     padding: 0;
-    margin: 0;
+    margin-top: 0;
+   
 }
-
+.Sticky{
+    position: fixed;
+    width: 100%;
+    
+}
+.Topstory-mainColumn{
+    margin-top: 62px;
+}
 .AppHeader-inner {
     width: 1000px;
     margin: auto;
@@ -141,7 +149,7 @@ body {
 
 .Topstory-container {
     width: 1000px;
-    margin: 10px auto 0 auto;
+    margin: 0px auto 0 auto;
     background: #F6F6FD;
 }
 
@@ -218,6 +226,7 @@ body {
     float: left;
     width: 296px;
     height: 176px;
+    margin-top: 62px;
 }
 
 .GlobalSideBar-categoryList {
@@ -419,7 +428,12 @@ body {
     float: right;
     color: #8590a6; 
     line-height: 2;
-    font-size: 13px;  
+    font-size: 13px; 
+}
+.Footer-Sticky{
+    position: fixed; 
+    width: 296px;
+    top:63px;
 }
 .Footer a{
     color: #8590a6;   
