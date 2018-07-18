@@ -1,0 +1,133 @@
+html,
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-inner {
+    width: 1200px;
+    height: 88px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.logo-img {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+}
+
+img {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    top: 45px;
+}
+
+.warm-info {
+    display: inline-block;
+    width: 900px;
+    height: 30px;
+    border: 1px solid pink;
+    font-size: 12px;
+    line-height: 30px;
+    background-color: #fef2f2;
+    color: #6C6C6C;
+    margin-left: 96px;
+}
+
+.change-info {
+    font-size: 12px;
+    float: right;
+    margin-top: 15px;
+}
+
+.change-info .change-info-a {
+    color: #6C6C6C;
+}
+
+.change-info .change-info-a:hover {
+    color: red;
+}
+.container{
+    background: url(https://img.alicdn.com/tfs/TB1qKoCD25TBuNjSspcXXbnGFXa-2500-600.jpg);
+    height: 600px;
+    background-position: center center;
+}
+.container-inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.img-click-a{
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    margin:80px 0 0 100px;
+}
+.login-contain{
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-top:120px;
+    background-color: #fff;
+}
+.login-contain-img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    background: url();
+    outline: 1px solid red;
+}
+.login-contain-span{
+    display: inline-block;
+    margin:25px 40px;
+    font-weight: bold;
+}
+.login-contain-ma{
+    width: 140px;
+    height: 140px;
+    outline: 1px solid red;
+    margin:5px auto;
+}
+.login-contain-sao{
+    margin: 30px 0 0 120px;
+    font-size: 13px;
+    color: gray;
+}
+.login-contain-sao a,.login-contain-bottom a:hover{
+    color: red;
+}
+.login-contain-bottom{
+    float: right;
+    font-size: 12px;
+    padding-top: 25px;
+    padding-right: 33px;
+    font-weight: normal;
+    
+}
+.login-contain-bottom a{
+    color: gray;
+}
+.footer-inner{
+    width: 1200px;
+    height: 171px;
+    margin: 60px auto;
+    
+}
+.footer-inner-ids{
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    line-height: 50px;
+}
+.footer-inner a,.footer-inner span{
+    font-size: 13px;
+    color: gray;
+    font-weight: normal;
+}
+.footer-inner a:hover{
+    color: red;
+}
