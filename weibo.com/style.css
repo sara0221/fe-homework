@@ -227,8 +227,12 @@ body {
 
 .contain-content {
     width: 600px;
-    height: 650px;
+    height: 635px;
     padding: 0;
+}
+.content-bottom a{
+    font-size: 12px;
+    font-weight: lighter;
 }
 
 .contain-content-two {
@@ -274,10 +278,11 @@ body {
     width: 50px;
     height: 50px;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .picture-right {
-    margin-left: 55px;
+    margin-left: 80px;
     margin-top: -50px;
     width: 480px;
 }
@@ -329,39 +334,113 @@ body {
 }
 
 .information-name {
-    height: 65px;
-    padding-left: 33px;
-    padding-right: 33px;
+    width: 90px;
+    margin: 0 auto 5px auto;
 }
 
-.information-name ul {
-    margin-top: -45px;
+.information-names {
+    text-align: center;
 }
 
 .information-names li {
     display: inline-block;
+    width: 50px;
+    line-height: 15px;
+    text-align: center;
 }
 
-.information-names a {
-    padding-right: 15px;
+.information-names li:first-child {
+    border-right: 1px solid #cccccc;
 }
 
-.information-names .one,
-.information-names .two {
-    border-right: 1px solid #808080;
+.information-names li:last-child {
+    border-left: 1px solid #cccccc;
 }
 
-.information-names li .items-one {
-    font-size: 15px;
+.information-names li div {
     color: black;
     font-weight: bolder;
 }
 
-.information-names li .items-two {
-    font-size: 13px;
+.information-names li span {
+    font-size: 11px;
     font-weight: lighter;
 }
-.spacil-vip{
-    height: 333px;
+
+.New-songs {
+    height: 256px;
+    margin-top: 10px;
+}
+
+.New-title {
+    border: 1px solid #cccccc;
+    line-height: 38px;
+}
+
+.New-songs-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.New-songs-huan {
+    font-size: 13px;
+    float: right;
+    font-size: 10px;
+    color: #333;
+    font-weight: lighter;
+}
+.New-vedio{
+    height: 84px;
+    border-bottom: 1px solid #cccccc;
+}
+.New-item{
+    height: 48px;
+    border-bottom: 1px solid #cccccc;
+}
+.New-bottom{
+    font-size: 10px;
+    line-height: 35px;
+    text-align: center;
+}
+.Hot-title{
+    height: 322px;
+    margin-top: 10px;
+}
+.Hot-title ul{
+    height: 240px;
+    border-bottom: 1px solid #ccc;
+}
+.Hot-title ul li{
+    height: 30px;
+}
+.Hot-title ul li a{
+    padding-left: 14px;
+    font-size: 12px;
+    color: black;
+}
+
+.Hot-title ul li span{
+    font-size: 10px;
+    float: right;
+    padding-right: 12px;
+    color: #808080;
+
+}
+.Hot-title ul li:first-child{
+    margin-top: 12px;
+}
+.Godfrind-focus{
+    height: 477px;
+    margin-top: 10px;
+}
+.Godfrind-items{
+    height: 100px;
+}
+.vip-contain{
+    height: 264px;
+    margin-top: 10px;
+}
+.vip-tip{
+    height: 135px;
     margin-top: 10px;
 }
