@@ -62,6 +62,7 @@ em {
 .inner-container {
     width: 1000px;
     margin: 0 auto;
+    background-color: rgba(36, 61, 89, 0.25);
 }
 
 .header-inner {
@@ -154,7 +155,7 @@ em {
     height: 100%;
     position: fixed;
     margin-top: 50px;
-    background-color: rgba(36, 61, 89, 0.25);
+    
 }
 
 body {
@@ -166,10 +167,10 @@ body {
 
 .contain-main {
     display: inline-block;
-    width: 850px;
+    width: 600px;
     height: 100%;
     margin: 50px 0 0 150px;
-    background-color: rgba(36, 61, 89, 0.25);
+    
 }
 
 .contain-left-slider {
@@ -197,7 +198,15 @@ body {
     width: 26px;
     height: 20px;
 }
-
+.contain-left-slider{
+    position: relative;
+}
+.ficon_setup{
+    position: absolute;
+    right: -11px;
+    bottom: -12px;
+    color: white;
+}
 .contain-left .small li a {
     font-size: 8px;
 }
@@ -217,10 +226,7 @@ body {
 }
 
 .main-post {
-    width: 600px;
-    height: 165px;
     margin-top: 15px;
-    margin-right: 10px;
 }
 
 .post-span-right {
@@ -254,6 +260,7 @@ body {
     margin-left: 13px;
     border: 1px solid #cccccc;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.15) inset;
+    resize: none;
 }
 
 .main-post-bottom-left a,
@@ -269,6 +276,7 @@ body {
     line-height: 24px;
     margin-top: 4px;
     margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 .main-post-bottom a em {
@@ -312,10 +320,10 @@ body {
     border: 0;
     border-radius: 3px;
     font-size: 14px;
+    margin-top:-4px;
 }
 
 .nav {
-    width: 600px;
     height: 38px;
     margin-top: 10px;
 }
@@ -357,7 +365,6 @@ body {
 }
 
 .contain-content {
-    width: 600px;
     padding: 0;
 }
 
@@ -366,7 +373,6 @@ body {
 }
 
 .contain-content-two {
-    width: 600px;
     height: 448px;
     padding: 0;
 }
@@ -374,8 +380,9 @@ body {
 .contain-right {
     width: 230px;
     display: inline-block;
-    margin-left: 760px;
-    margin-top: -1374px;
+    vertical-align: top;
+    margin-top: 65px;
+    margin-left: 8px;
 }
 
 .vip-information {
@@ -399,8 +406,13 @@ body {
     margin-right: 10px;
 }
 
-.arrow-down span {
+.arrow-down{
     float: right;
+    font-style: normal;
+    padding-right: 18px;
+}
+.arrow-down:hover{
+    color: #e27958;
 }
 
 .content-center-imag {
@@ -514,7 +526,9 @@ body {
     height: 256px;
     margin-top: 10px;
 }
-
+.New-songs-huan:hover{
+    color: #e27958;
+}
 .New-title {
     border: 1px solid #cccccc;
     line-height: 38px;
@@ -562,7 +576,18 @@ body {
     font-weight: 600;
     color: black;
 }
-
+.icon_num_red{
+    display: inline-block;
+    background: #df3e3e;
+    width: 15px;
+    height: 15px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-style: normal;
+}
 .speinofo {
     color: #e27958;
     font-weight: 600;
