@@ -252,7 +252,12 @@ body {
     margin-top: 18px;
     margin-right: 10px;
 }
-
+.post-input-number{
+    float: right;
+    margin-top:18px;
+    margin-right: 10px;
+    display: none;
+}
 .post-input {
     height: 80px;
     width: 570px;
@@ -598,6 +603,10 @@ body {
     border-bottom: 1px solid #f2f2f5;
 }
 
+.New-item .subtitle {
+    display: none;
+}
+
 .New-item .title {
     display: inline-block;
     margin-left: 10px;
@@ -606,6 +615,9 @@ body {
     margin-right: 30px;
 }
 
+.New-item img {
+    display: none;
+}
 .New-item .speinofo {
     display: inline-block;
 }
