@@ -257,6 +257,14 @@ body {
     margin-top:18px;
     margin-right: 10px;
     display: none;
+    color: #808080;
+    font-size: 12px;
+}
+.post-input-number .input-number{
+    font-weight: 700;
+    font-size: 22px;
+    font-style: italic;
+    font-family: Constantia,Georgia;
 }
 .post-input {
     height: 80px;
@@ -266,6 +274,10 @@ body {
     border: 1px solid #cccccc;
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.15) inset;
     resize: none;
+}
+.post-input:focus{
+    outline: none;
+    border-color: red;
 }
 
 .main-post-bottom-left a,
