@@ -8,7 +8,9 @@ rank.forEach(element => {
         event.target.className = 'J_rank-item New-vedio'
     })
 });
-function countstr(textarea){
+
+//-------发表微博框-------
+function countstr(textarea) {
     var count = 0
     var number = textarea
     for (let i = 0; i < number.length; i++) {
@@ -25,26 +27,32 @@ var countnumber
 textarea.addEventListener('focus', function (event) {
     var post_span_left = document.querySelector('.post-span-left')
     post_span_left.style.display = 'none'
-    var post_input_number = document.querySelector('.post-input-number')
-    post_input_number.style.display = "block"
-
-    countnumber = setInterval(function (e) {
-        var countvalue=Math.ceil(countstr(event.target.value))
-        
-        var input_number = document.querySelector('.input-number')
-        input_number.innerHTML = countvalue
-    }, 200)
-
     
+    countnumber = setInterval(function (e) {
+        var input_number = document.querySelector('.input-number')
+        var countvalue = Math.ceil(countstr(event.target.value))
+        input_number.innerHTML = countvalue
+
+        if (countvalue > 0) {
+
+            var post_input_number = document.querySelector('.post-input-number')
+            post_input_number.style.display = "block"
+        }
+
+        if (countvalue >= 140) {
+            input_number.style.color = "red"
+        } else {
+            input_number.style.color = "currentcolor"
+        }
+    }, 200)
 })
 
 textarea.addEventListener('blur', function (event) {
     clearInterval(countnumber)
-    if(countstr(event.target.value)===0){
+    if (countstr(event.target.value) === 0) {
         var post_span_left = document.querySelector('.post-span-left')
-    post_span_left.style.display = 'block'
-    var post_input_number = document.querySelector('.post-input-number')
-    post_input_number.style.display = "none"
+        post_span_left.style.display = 'block'
+        var post_input_number = document.querySelector('.post-input-number')
+        post_input_number.style.display = "none"
     }
-
 })
