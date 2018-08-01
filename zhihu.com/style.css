@@ -23,7 +23,7 @@ body {
     box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
     padding: 0;
     margin-top: 0;
-   
+    
 }
 .Sticky{
     position: fixed;
@@ -85,6 +85,9 @@ body {
     display: block;
 }
 
+.SearchBar-input{
+    position: relative;
+}
 .input {
     width: 308px;
     padding-left: 16px;
@@ -96,10 +99,49 @@ body {
     border-radius: 4px;
     outline: none;
     border: none;
+    
+}
+/* .Icon--search{
+    position: relative;
+    right:30px;
+    fill: #8590a6;
+} */
+.ask-push{
+    display: none;
+    width:416px ;
+    height: 450px;
+    margin-top: 10px;
+    position: fixed;
+    top: 43px;
+   
+    
+}
+.ask-push ul{
+    padding-left: 15px;
+    margin: 0;
+    color:#1a1a1a;
+    font-size: 14px;
+    
+}
+.ask-push ul span{
+    display: block;
+    border-bottom: 1px solid  rgba(26,26,26,.1);
+    margin-right: 10px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #8590a6;
+}
+.ask-push ul li{
+    list-style: none;
+    line-height: 35px;
+    
+}
+.ask-push ul li:hover{
+    background: #f6f6f6;
 }
 
 .input:focus {
-    width: 400px;
+    /* width: 400px; */
     padding-left: 16px;
     height: 34px;
     line-height: 24px;
@@ -110,7 +152,11 @@ body {
     outline: none;
     border: none;
 }
-
+.Icon--remove{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
 .button {
     font: 400 14px system-ui;
     color: #f6f6f6;
