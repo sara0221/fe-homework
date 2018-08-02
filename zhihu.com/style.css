@@ -23,16 +23,17 @@ body {
     box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
     padding: 0;
     margin-top: 0;
-    
 }
-.Sticky{
+
+.Sticky {
     position: fixed;
     width: 100%;
-    
 }
-.Topstory-mainColumn{
+
+.Topstory-mainColumn {
     margin-top: 62px;
 }
+
 .AppHeader-inner {
     width: 1000px;
     margin: auto;
@@ -85,77 +86,84 @@ body {
     display: block;
 }
 
-.SearchBar-input{
+.SearchBar-input {
     position: relative;
+    background: #f6f6f6;
+    border-radius: 4px;
+    border: 1px solid #ebebeb;
+    width: 320px;
 }
+
 .input {
-    width: 308px;
-    padding-left: 16px;
-    height: 34px;
+    width: 350px;
+    height: 30px;
     line-height: 24px;
     font: 400 14px system-ui;
     background: transparent;
-    background: #f6f6f6;
-    border-radius: 4px;
     outline: none;
     border: none;
-    
+    padding-left: 16px;
 }
-/* .Icon--search{
-    position: relative;
-    right:30px;
+
+.Icon--search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
     fill: #8590a6;
-} */
-.ask-push{
-    display: none;
-    width:416px ;
-    height: 450px;
-    margin-top: 10px;
-    position: fixed;
-    top: 43px;
-   
-    
 }
-.ask-push ul{
+
+.ask-push {
+    display: none;
+    width: 400px;
+    margin-top: 12px;
+    position: fixed;
+}
+
+.ask-push ul {
     padding-left: 15px;
     margin: 0;
-    color:#1a1a1a;
+    color: #1a1a1a;
     font-size: 14px;
-    
 }
-.ask-push ul span{
+
+.ask-push span {
+    margin-left: 15px;
     display: block;
-    border-bottom: 1px solid  rgba(26,26,26,.1);
+    border-bottom: 1px solid rgba(26, 26, 26, .1);
     margin-right: 10px;
     line-height: 40px;
     font-size: 14px;
     color: #8590a6;
 }
-.ask-push ul li{
+
+.ask-push ul li {
     list-style: none;
     line-height: 35px;
-    
 }
-.ask-push ul li:hover{
+
+.ask-push ul li:hover {
     background: #f6f6f6;
 }
 
-.input:focus {
-    /* width: 400px; */
-    padding-left: 16px;
-    height: 34px;
-    line-height: 24px;
-    font: 400 14px system-ui;
-    background: transparent;
-    background: #f6f6f6;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-}
-.Icon--remove{
+.ask-push ul li:hover .Icon--remove{
     float: right;
     margin-top: 10px;
     margin-right: 10px;
+    display: block;
+}
+.Icon--remove {
+    
+    display: none;
+}
+.clear-all{
+    text-decoration: none;
+    float: right;
+    margin-top: -20px;
+    margin-right: 5px;
+    color: #444;
+}
+.clear-all:hover{
+    color: #175199;
 }
 .button {
     font: 400 14px system-ui;
@@ -469,23 +477,27 @@ body {
 #Popover6-toggle .Button--withLabel {
     margin-left: 0;
 }
-.Footer{
+
+.Footer {
     width: 296px;
     float: right;
-    color: #8590a6; 
+    color: #8590a6;
     line-height: 2;
-    font-size: 13px; 
+    font-size: 13px;
 }
-.Footer-Sticky{
-    position: fixed; 
+
+.Footer-Sticky {
+    position: fixed;
     width: 296px;
-    top:63px;
+    top: 63px;
 }
-.Footer a{
-    color: #8590a6;   
+
+.Footer a {
+    color: #8590a6;
     text-decoration: none;
 }
-.Footer-dot::after{
-    margin:0 5px;
+
+.Footer-dot::after {
+    margin: 0 5px;
     content: "\B7";
 }
