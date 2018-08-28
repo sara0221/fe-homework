@@ -1,0 +1,228 @@
+html,
+body {
+    margin: 0;
+    font-family: "Heiti SC", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", verdana;
+    font-size: 12px;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content: "\200B";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.top-header {
+    background-color: #333;
+    z-index: 4;
+}
+
+.top-header-inner {
+    width: 1090px;
+    margin: 0 auto;
+    height: 36px;
+}
+
+.header-left-tip a {
+    color: #ccc;
+}
+
+.header-left-tip {
+    line-height: 36px;
+    float: left;
+}
+
+.header-left-info {
+    height: 36px;
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+    background:url(http://yanxuan.nosdn.127.net/d132c2561f18f1149d566a60d05fd9b7.gif) center left no-repeat ;
+}
+/* #yanxuan-notice-ul{
+    position: relative ;
+    top: -10px;
+    margin-left: 20px;
+    transform:translateY(-0px);
+    transition:all 0.1s ease;
+} */
+.header-left-info ul li a {
+    color: #b4a078;
+    text-decoration: underline;
+}
+
+.top-header-left {
+    overflow: hidden;
+}
+
+.top-header-right {
+    float: right;
+    margin-top: -35px;
+}
+
+.top-header-right ul li {
+    display: inline-block;
+}
+
+.top-header-right ul li a i.icon-upArrow {
+    display: inline-block;
+    background-image: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-sc6353bfedb-173a41cd9d.png);
+    background-position: 0 -321px;
+    height: 5px;
+    width: 11px;
+    vertical-align: 2px;
+    margin-left: 10px;
+}
+
+.top-header-right ul li a i.icon-app {
+    display: inline-block;
+    background-image: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-sc6353bfedb-173a41cd9d.png);
+    background-position: 0 0;
+    height: 11px;
+    width: 7px;
+    margin-right: 6px;
+}
+
+.top-header-right-ul .right-ul-li .right-ul-li-a {
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid gray;
+}
+
+.top-header-right ul li:first-child a,
+.top-header-right ul li:last-child a,{
+    border-right: none;
+}
+
+.top-header-right ul li a,
+.top-header-right ul li span {
+    color: #ccc;
+}
+
+.top-header-right-ul{
+    position: relative;
+}
+.drop-down-menu {
+    position: absolute;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+    top: 21px;
+    
+}
+.right-ul-li-div{
+    right: 50px;
+    width: 80px;
+    text-align: center;
+    line-height: 40px;
+}
+.right-ul-li-div ul li{
+    height: 40px;
+    border-bottom: 1px solid #ddd;
+    
+}
+.right-ul-li-div ul li a{
+    color: #999;
+}
+.right-ul-li-div ul li:last-child{
+    border-bottom:none;
+}
+.drop-down-menu-li:hover .icon-upArrow{
+    transform: rotateX(180deg);
+}
+
+.icon-arrow-up {
+    width: 1px;
+    font-size: 0;
+    line-height: 0;
+    border-width: 5px;
+    border-color: #fff;
+    border-top-width: 0;
+    border-style: dashed;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    top: -5px;
+    left: 32px;
+}
+
+.drop-down-menu-div ul li a {
+    border-right: none;
+    margin-left: 8px;
+}
+
+/* 搜索框 */
+
+
+.nav-header-inner {
+    width: 1090px;
+    margin: 0 auto;
+    height: 204px;
+    outline: 1px solid red;
+    text-align: right;
+    position: relative;
+    
+}
+.yx-icon-nav{
+    background-image: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-sc6353bfedb-173a41cd9d.png);
+    background-position: 0 -146px;
+    height: 60px;
+    width: 180px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.yx-cartEnter-icon{
+    background-image: url(http://yanxuan-static.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-sc6353bfedb-173a41cd9d.png);
+    height: 23px;
+    width: 23px;
+    background-position: 0 -113px;
+    display: inline-block;
+    position: relative;
+    bottom: 42px;
+    left: 0;
+}
+.nav-top{
+    float: left;
+    margin-top: 40px;
+    
+}
+
+.nav-top .yx-tabNav-item{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-right: 40px;
+    line-height: 20px;
+    vertical-align: top;
+    
+}
+
+.yx-tabNav-split{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    height: 20px;
+    margin-left: -20px;
+    margin-right: 20px;  
+}
+
+.nav-top-first-li{
+    color: #b4a078;
+    border-bottom: 3px solid #b4a078;
+
+}
+.nav-top-first-li a:visited{
+    color: #b4a078;
+}
